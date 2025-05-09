@@ -6,5 +6,5 @@ CXX_DEFINES = -DCERES_USE_CXX11_THREADS
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -O2 -Wall -std=gnu++11
+CXX_FLAGS = -fPIC -O2 -Wall -std=gnu++11
 

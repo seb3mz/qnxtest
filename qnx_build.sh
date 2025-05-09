@@ -1,3 +1,4 @@
+rm -rf build
 source /home/dve/work/code/360/qnx-sdk_local8155/qnx/qnx-sdp/qnxsdp-env.sh
 
 cmake \
@@ -10,3 +11,6 @@ cmake \
 # -G 指定 ‌构建系统生成器‌，决定 CMake 生成的项目文件类型
 # -B 指定构建目录
 # -S 指定包含 CMakeLists.txt源代码目录 
+
+cd build
+make

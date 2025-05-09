@@ -1,4 +1,5 @@
-CMakeFiles/qnxtest.dir/main.cpp.o: /home/dve/work/code/pc/qnx/main.cpp \
+CMakeFiles/qnxtest.dir/main.cpp.o: \
+ /home/dve/work/code/pc/qnxtest/main.cpp \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/iostream \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/__config \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/ios \
@@ -106,4 +107,11 @@ CMakeFiles/qnxtest.dir/main.cpp.o: /home/dve/work/code/pc/qnx/main.cpp \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/nl_types.h \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/__bsd_locale_fallbacks.h \
  /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/bitset \
- /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/__bit_reference
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/c++/v1/__bit_reference \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/screen/screen.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/process.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/sys/process.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/sys/neutrino.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/sys/states.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/sys/nto_version.h \
+ /home/dve/work/code/qnx-sdp/target/qnx7/usr/include/aarch64/neutrino.h

@@ -1,3 +1,3 @@
-/home/dve/work/code/pc/qnx/build/CMakeFiles/qnxtest.dir
-/home/dve/work/code/pc/qnx/build/CMakeFiles/edit_cache.dir
-/home/dve/work/code/pc/qnx/build/CMakeFiles/rebuild_cache.dir
+/home/dve/work/code/pc/qnxtest/build/CMakeFiles/qnxtest.dir
+/home/dve/work/code/pc/qnxtest/build/CMakeFiles/edit_cache.dir
+/home/dve/work/code/pc/qnxtest/build/CMakeFiles/rebuild_cache.dir

@@ -28,7 +28,7 @@ set(SRC_LIST "./main.cpp")
 #-Wall：启用所有常见的编译警告
 #-O2：启用较高水平的优化。其他优化级别有 -O0（无优化）、-O1、-O3 和 -Os（优化代码大小
 #-std=gnu++11：指定使用 GNU 扩展的 C++11 标准，在 ISO C++11 标准基础上，‌启用 GNU 扩展语法‌
-set(LOCAL_CXXFLAGS -O2 -Wall -std=gnu++11)
+set(LOCAL_CXXFLAGS -fPIC -O2 -Wall -std=gnu++11)
 
 #是 Ceres Solver 库的编译宏，用于显式指定使用 ‌C++11 标准线程库‌（如 std::thread）实现多线程优化
 add_definitions(-DCERES_USE_CXX11_THREADS)
@@ -38,5 +38,14 @@ add_definitions(-DCERES_USE_CXX11_THREADS)
 # cmake 添加编译选项
 add_compile_options(${LOCAL_CXXFLAGS})
 
+#./qnx-sdp/target/qnx7/aarch64le/usr/lib
+# 查找库文件
+find_library(
+    SCREEN 
+    NAMES screen 
+    REQUIRED)
 # cmake 添加可执行文件
 add_executable(${PROJ_NAME} ${SRC_LIST})
+
+# 添加链接库
+target_link_libraries(${PROJ_NAME} PUBLIC ${SCREEN})
